@@ -111,7 +111,7 @@ arrow(gx+4, yc+11, dx0, yc+11)
 ax.text(dx0+1.5, yc+3, 'Dense\n64', ha='center', fontsize=9, weight='bold', color=INK)
 
 ox = 137
-for i, cl in enumerate(['N', 'S', 'V', 'F', 'Q']):
+for i, cl in enumerate(['1', '2', '3', '4', '5']):
     ny = yc + 16 - i*2.6
     ax.add_patch(plt.Circle((ox, ny), 1.0, facecolor=C_OUT, edgecolor=INK, linewidth=1.2))
     ax.text(ox, ny, cl, ha='center', va='center', fontsize=8, color='white', weight='bold')
