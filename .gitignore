@@ -233,3 +233,6 @@ data/
 # OS junk
 .DS_Store
 Thumbs.db
+# OS / editor / notebook clutter
+.idea/
+.vscode/
